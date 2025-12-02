@@ -186,16 +186,16 @@ php artisan view:cache
 Setelah menjalankan seeder, gunakan akun berikut untuk login:
 
 ### Main Admin
-- Email: `admin@loundryss.com`
+- Email: `admin@gmail.com`
 - Password: `password`
 
 ### Branch Admin  
-- Email: `branch1@loundryss.com`
+- Email: `badmin@gmail.com`
 - Password: `password`
 
 ### User
-- Email: `user@example.com`
-- Password: `password`
+- Email: `user3@gmail.com`
+- Password: `12345678`
 
 > **⚠️ Penting**: Ubah password default setelah login pertama!
 
