@@ -1,0 +1,62 @@
+.pickup-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .pickup-options {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.pickup-option {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.pickup-option:hover {
+    transform: scale(1.05);
+}
+
+.pickup-option h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.pickup-option p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.pickup-option .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.pickup-option .btn-offline {
+    background-color: #333;
+    color: #fff;
+}
+
+.pickup-option .btn-offline:hover {
+    background-color: #555;
+}
+
+.pickup-option .btn-online {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pickup-option .btn-online:hover {
+    background-color: #0056b3;
+}

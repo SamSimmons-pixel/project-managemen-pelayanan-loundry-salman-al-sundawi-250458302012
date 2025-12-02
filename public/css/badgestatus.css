@@ -1,0 +1,28 @@
+.badge {
+    padding: 0.5em 0.75em;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-size: 0.75em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.badge-belum_bayar {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-sedang_diproses {
+    color: #000;
+    background-color: #ffc107;
+}
+
+.badge-selesai {
+    color: #fff;
+    background-color: #198754;
+}
+
+.badge-delivered {
+    color: #fff;
+    background-color: #0d6efd;
+}
