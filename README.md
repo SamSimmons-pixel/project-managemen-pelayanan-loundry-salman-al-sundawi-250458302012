@@ -51,13 +51,10 @@ Sistem ini dilengkapi dengan 3 role pengguna:
 - **Alpine.js** (via Livewire) - JavaScript framework
 - **Chart.js** - Library untuk visualisasi data
 - **SweetAlert2** - Modal dan alert yang modern
-- **Vite** - Asset bundler
 
 ### Development Tools
 - **Composer** - PHP dependency manager
 - **NPM** - Node package manager
-- **Pest PHP** - Testing framework
-- **Laravel Pint** - Code style fixer
 
 ## 📦 Persyaratan Sistem
 
@@ -251,10 +248,6 @@ php artisan optimize:clear
 ```bash
 php artisan serve --port=8001
 ```
-
-## 📝 License
-
-Project ini menggunakan [MIT License](LICENSE).
 
 ## 👨‍💻 Developer
 
