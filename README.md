@@ -43,7 +43,7 @@ Sistem ini dilengkapi dengan 3 role pengguna:
 ### Backend
 - **Laravel 12** - PHP Framework
 - **Livewire 3** - Full-stack framework untuk Laravel
-- **SQLite** - Database (mudah dipindahkan ke MySQL/PostgreSQL)
+- **MySQL**
 - **Midtrans PHP SDK** - Payment gateway integration
 
 ### Frontend
@@ -62,9 +62,9 @@ Sistem ini dilengkapi dengan 3 role pengguna:
 ## 📦 Persyaratan Sistem
 
 - PHP >= 8.2
-- Composer
-- Node.js & NPM (untuk build assets)
-- MySQL
+- Composer = 2.8.12
+- Node.js & NPM (untuk build assets) 
+- MySQL = 22.18.0
 
 ## 🚀 Cara Instalasi
 
@@ -259,9 +259,6 @@ Project ini menggunakan [MIT License](LICENSE).
 ## 👨‍💻 Developer
 
 **Salman Al Sundawi**  
-NIM: 250458302012  
 Program Studi: Teknik Informatika
 
 ---
-
-<p align="center">Made with ❤️ for Final Project</p>
