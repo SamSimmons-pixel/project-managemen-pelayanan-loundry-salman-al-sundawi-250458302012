@@ -142,7 +142,7 @@ npm run build
 
 ### Development Mode
 
-**Opsi 1: Jalankan manual (3 terminal terpisah)**
+**Opsi 1: Jalankan manual (2 terminal terpisah)**
 
 ```bash
 # Terminal 1 - Laravel server
@@ -216,15 +216,7 @@ Setelah menjalankan seeder, gunakan akun berikut untuk login:
 └── public/                 # Public assets
 ```
 
-## 🧪 Testing
 
-```bash
-# Jalankan semua test
-php artisan test
-
-# Atau dengan Pest
-./vendor/bin/pest
-```
 
 ## 🐛 Troubleshooting
 
