@@ -64,7 +64,7 @@ Sistem ini dilengkapi dengan 3 role pengguna:
 - PHP >= 8.2
 - Composer
 - Node.js & NPM (untuk build assets)
-- SQLite (atau MySQL/PostgreSQL)
+- MySQL
 
 ## 🚀 Cara Instalasi
 
@@ -150,12 +150,6 @@ npm run build
 ```bash
 # Terminal 1 - Laravel server
 php artisan serve
-
-# Terminal 2 - Queue worker
-php artisan queue:listen
-
-# Terminal 3 - Vite dev server
-npm run dev
 ```
 
 **Opsi 2: Jalankan otomatis dengan composer (recommended)**
