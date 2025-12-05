@@ -43,7 +43,7 @@ Sistem ini dilengkapi dengan 3 role pengguna:
 ### Backend
 - **Laravel 12** - PHP Framework
 - **Livewire 3** - Full-stack framework untuk Laravel
-- **MySQL**
+- **MySQL** - Database Management
 - **Midtrans PHP SDK** - Payment gateway integration
 
 ### Frontend
